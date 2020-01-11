@@ -1,1 +1,1 @@
-worker: marketlogger.py
+worker: python marketlogger.py
