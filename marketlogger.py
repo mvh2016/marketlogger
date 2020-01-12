@@ -32,7 +32,7 @@ async def on_message(message):
     if msgChannel not in goodchannel:
         pass
     else:
-        botAuthor = 'Market Logger#2183'
+        botAuthor = 'Park Event Logger#2183'
         msgAuthor = str(message.author)
         if msgAuthor not in botAuthor:
             listofstuff = message.content.split('\n')
