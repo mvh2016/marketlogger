@@ -3,7 +3,7 @@ from discord.ext import commands
 from os import environ
 
 client = commands.Bot(command_prefix = '/')
-game = discord.Game("in goodstuff!")
+game = discord.Game("in the park! | watching #event-logs")
 lastHost = ''
 lastStarting = ''
 lastMessageID = ''
@@ -15,7 +15,7 @@ async def on_ready():
     print ('Bot is ready.')
     await client.change_presence(activity=game)
     embed = discord.Embed(
-       title = '**:white_check_mark: Market Logger is Online!**',
+       title = '**:white_check_mark: Park Event Logger is Online!**',
        colour = discord.Colour.green()
     )
         
